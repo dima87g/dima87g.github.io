@@ -1,0 +1,755 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #ffffff;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.padding-site {
+    padding-left: 98px;
+    padding-right: 98px;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+
+.slider {
+    height: 800px;
+    background-image: url("img/slider-img.jpg");
+    position: relative;
+}
+
+.header {
+    padding-top: 63px;
+    /*height: 100px;*/
+}
+
+.header-logo {
+    /*float: left;*/
+    /*margin-top: 64px;*/
+    /*margin-left: 98px;*/
+}
+.menu {
+    float: right;
+    /*margin-top: 67px;*/
+    /*margin-right: 167px;*/
+}
+
+.menu-list {
+    float: left;
+    list-style-type: none;
+    display: inline-block;
+}
+
+.menu-link {
+    font-size: 14px;
+    font-weight: 300;
+    color: #8c8c8c;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+
+.menu-link:hover {
+    color: #212121
+}
+
+.menu-link-active {
+    font-weight: bold;
+    color: #212121;
+    letter-spacing: 1.4px;
+    border-bottom: 3px solid #212121;
+}
+
+.slider-text {
+    margin-top: 283px;
+}
+
+.slider-trending {
+    font-weight: 700;
+    font-size: 18px;
+    color: #43a047;
+}
+
+.slider-h2 {
+    font-weight: 100;
+    font-size: 62px;
+    color: #212121;
+}
+
+.slider-content {
+    font-weight: 300;
+    font-size: 14px;
+    color: #6c6c6c;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.button {
+    background-image: url("img/button-arrow.png");
+    background-repeat: no-repeat;
+    background-position: 90% 50%;
+    color: #212121;
+    width: 212px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 2px 5px 0 rgba(33, 33, 33, 0.35);
+    border-radius: 23px;
+    background-color: #ffffff;
+    letter-spacing: 3.6px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.button:hover {
+    box-shadow: 4px 4px 5px 1px rgba(33, 33, 33, 0.35);
+}
+.pagination {
+    position: absolute;
+    width: 1170px;
+    bottom: 19px;
+    text-align: center;
+}
+.circle {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    background-color: #c7c7c7;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle-active {
+    width: 40px;
+    height: 40px;
+    background-color: #212121;
+    margin-bottom: 0px;
+}
+
+.circle:hover {
+    background-color: #212121;
+}
+
+
+/*Разметка тела сайта*/
+
+.featured{
+    margin-top: 120px;
+    height: 490px;
+}
+
+.featured-menu-list {
+    /*float: left;*/
+    display: inline-block;
+}
+
+.featured-menu-link {
+    color: #6c6c6c;
+    text-decoration: none;
+    border-bottom: 1px solid;
+    font-weight: 700;
+    font-size: 36px;
+    padding: 20px 10px
+}
+
+.featured-menu-link:hover {
+    color: #212121;
+}
+
+.featured-menu-link-active {
+    color: #212121;
+    border-bottom: 3px solid;
+}
+
+.explore-link {
+    float: right;
+    text-decoration: none;
+    color: #212121;
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 3.6px;
+}
+
+.featured-products {
+    margin-top: 50px;
+}
+
+.featured-product {
+    width: 270px;
+    height: 270px;
+    float: left;
+    /*display: inline-block;*/
+    position: relative;
+    margin-right: 30px;
+}
+
+.featured-product:nth-child(4) {
+    margin-right: 0px;
+}
+
+.featured-hover {
+    width: 270px;
+    height: 270px;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+.hover-arrow {
+    margin-top: 62px;
+}
+
+.hover-h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 19px;
+}
+
+.hover-content {
+    width: 210px;
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 23px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.featured-product:hover .featured-hover{
+    display: inline-block;
+}
+
+.promo {
+    height: 680px;
+    /*margin-top: 120px;*/
+}
+
+.promo-product-1 {
+    height: 683px;
+    width: 683px;
+    /*padding-left: 50px;*/
+    background-image: url("img/body/promo-product-1.jpg");
+    float: left;
+}
+
+.promo-product-2 {
+    height: 683px;
+    width: 683px;
+    /*padding-left: 50px;*/
+    background-image: url("img/body/promo-product-2.jpg");
+    float: right;
+}
+
+.promo-text {
+    padding-left: 50px;
+    margin-top: 227px;
+}
+
+.promo-exclusive {
+    font-weight: 700;
+    font-size: 18px;
+    color: #1e88e5;
+}
+
+.promo-h2 {
+    font-weight: 700;
+    font-size: 36px;
+    color: #212121;
+}
+
+.promo-content {
+    width: 400px;
+    font-weight: 300;
+    font-size: 14px;
+    color: #6c6c6c;
+    line-height: 24px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.trending-block {
+    margin-top: 120px;
+}
+
+.trending-products {
+    margin-top: 60px;
+}
+
+.trending-product {
+    width: 370px;
+    height: 370px;
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+.trending-product:nth-child(3n) {
+    padding-right: 0px;
+}
+
+.body-slider {
+    margin-top: 90px;
+    height: 800px;
+    background-image: url("img/body/body-slider.jpg");
+    position: relative;
+}
+
+.body-slider-text {
+    padding-top: 283px;
+}
+
+.body-slider-trending {
+    font-weight: 700;
+    font-size: 18px;
+    color: #43a047;
+}
+
+.body-slider-h2 {
+    font-weight: 100;
+    font-size: 62px;
+    color: #212121;
+}
+
+.body-slider-content {
+    font-weight: 300;
+    font-size: 14px;
+    color: #6c6c6c;
+    width: 458px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 24px;
+}
+
+.body-promo {
+    height: 570px;
+    margin-top: 120px;
+}
+
+.promo-product-3 {
+    height: 570px;
+    width: 570px;
+    /*padding-left: 50px;*/
+    background-image: url("img/body/promo-product-3.jpg");
+    float: left;
+}
+
+.promo-content-3 {
+    height: 128px;
+    width: 340px;
+}
+
+.mini-promo {
+    float: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.mobile {
+    height: 516px;
+    margin-top: 120px;
+    background-image: url("img/body/mobile.jpg");
+ }
+
+.mobile-text{
+    padding-top: 124px;
+}
+
+.mobile-app {
+    font-size: 18px;
+    line-height: 48px;
+    color: #6c6c6c;
+}
+
+.mobile-h2 {
+    width: 470px;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    color: #212121;
+}
+
+.mobile-content {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #6c6c6c;
+}
+
+.store-buttons {
+    margin-top: 36px;
+    word-spacing: 10px;
+}
+
+.store-button {
+    display: inline-block;
+    width: 135px;
+    height: 40px;
+}
+
+.app-store {
+    background-image: url("img/body/app-store.png");
+}
+
+.google-store {
+    background-image: url("img/body/google-store.png");
+}
+
+.body-footer {
+    height: 384px;
+    background-color: #f7f7f7;
+}
+
+.body-footer-text {
+    padding-top: 120px;
+    height: 150px;
+}
+
+.contact {
+    height: 140px;
+    width: 220px;
+    float: left;
+}
+
+.useful {
+    height: 140px;
+    width: 420px;
+    float: left;
+}
+
+.let-stay {
+    height: 140px;
+    width: 360px;
+    float: left;
+}
+
+.contact-h2,
+.useful-h2,
+.let-stay-h2 {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    color: #6c6c6c;
+}
+
+.contact {
+    padding-right: 80px;
+}
+
+.contact-content {
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #212121;
+}
+
+.contact-mail {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #212121;
+    text-decoration: none;
+}
+
+.useful-links-1,
+.useful-links-2 {
+    float: left;
+    padding-top: 20px;
+}
+.useful-links-1 {
+    width: 130px;
+}
+
+.useful-links-2 {
+    width: 190px;
+}
+.useful-link {
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+    line-height: 2;
+    color: #212121;
+}
+
+.lets-stay-content {
+    padding-top: 25px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.57;
+    text-align: left;
+    color: #212121;
+}
+
+input[type="email"] {
+    height: 50px;
+    width: 370px;
+    font-size: 14px;
+    color: #6c6c6c;
+    background-image: url("img/plane.png");
+    background-repeat: no-repeat;
+    background-position: 95% 50%;
+}
+
+.copyright {
+    margin-top: 50px;
+    letter-spacing: 150px;
+}
+.copy {
+    width: 362px;
+    height: 9px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.terms {
+    width: 350px;
+    height: 12px;
+    color: #6c6c6c;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: uppercase;
+    letter-spacing: 0.6px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+/*Страница Контакты*/
+
+.contacts-head {
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.contacts-head-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 100;
+    line-height: 72px;
+    margin-top: 170px;
+}
+
+.contacts-body {
+    height: 500px;
+    padding-top: 70px;
+}
+
+.contacts-body-address {
+    width: 370px;
+    height: 370px;
+    border: 1px solid #9c9c9c;
+    background-color: #ffffff;
+    opacity: 0.9;
+    float: left;
+    margin-right: 27px;
+}
+
+.contacts-body-address:nth-child(3) {
+    margin-right: 0px;
+}
+
+.address-content {
+    text-align: center;
+    margin-top: 48px;
+}
+
+.address-h2 {
+    color: #212121;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 30px;
+}
+.address-phone,
+.address-mail,
+.address-address {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.address-phone + p {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.address-mail + a {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.address-address + p {
+    color: #6c6c6c;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/*Страница Контакты*/
+
+.products-head {
+    height: 360px;
+    background-color: #f5f5f5;
+}
+
+.products-head-h2 {
+    color: #212121;
+    font-size: 62px;
+    font-weight: 200;
+    line-height: 72px;
+    margin-top: 170px;
+}
+
+.products-body {
+    text-align: center;
+}
+
+.refresh {
+    margin-top: 70px;
+}
+
+.products-promo {
+    margin-top: 140px;
+}
+
+.products-menu {
+    height: 40px;
+    list-style-type: none;
+    text-align: left;
+}
+
+.products-menu-list {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.products-menu-link {
+    color: #212121;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.products-link-main {
+    border-bottom: 1px solid black;
+}
+
+.product-body-menu {
+    height: 70px;
+    margin-top: 30px;
+    background-color: #f4f4f4;
+
+}
+
+.product-menu {
+    padding-top: 28px;
+    word-spacing: 20px;
+    list-style-type: none;
+    text-align: center;
+}
+
+.product-menu-list {
+    display: inline-block;
+}
+
+.product-menu-link {
+    text-decoration: none;
+    color: #6c6c6c;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+}
+
+.product-body {
+    margin-top: 72px;
+    height: 1555px;
+    background-color: #ffffff;
+}
+
+.product-image {
+    width: 570px;
+    float: left;
+}
+
+.product-mini-choose {
+    text-align: center;
+}
+
+.product-mini-list {
+    list-style-type: none;
+    display: inline-block;
+}
+
+.product-text{
+    width: 570px;
+    float: right;
+}
+
+.product-text-h2 {
+    /* Style for "Fishnet Ch" */
+    height: 28px;
+    color: #212121;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.product-text-deal {
+    /* Style for "Hot Deal" */
+    height: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 48.02px;
+    text-transform: uppercase;
+    /* Text style for "Hot Deal" */
+    color: #e53935;
+    letter-spacing: 1.8px;
+    text-align: center;
+}
+
+.product-text-price {
+    /* Style for "$ 36.7/sq" */
+    height: 57px;
+    color: #212121;
+    font-weight: 300;
+    line-height: 48.02px;
+    /* Text style for "" */
+    /* Text style for "36.7" */
+    font-size: 72px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 35px;
+}
